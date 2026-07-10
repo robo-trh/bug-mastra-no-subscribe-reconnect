@@ -2,9 +2,7 @@
 
 Minimal reproduction for the `@mastra/client-js` AgentController `subscribe()` bug:
 no reconnect after a dropped SSE stream, silent death on clean server close, and no
-auth-refresh path for long-lived sessions. See `BUG_REPORT.md` for the full issue
-text (ready to paste into GitHub once the repro is pushed to a public repo and the
-placeholder link is filled in).
+auth-refresh path for long-lived sessions.
 
 ```bash
 npm install
