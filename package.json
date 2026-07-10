@@ -1,0 +1,12 @@
+{
+  "name": "mastra-f4-repro",
+  "private": true,
+  "type": "module",
+  "description": "Repro: @mastra/client-js AgentController session subscribe() has no reconnect and no header refresh",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@mastra/client-js": "1.31.1"
+  }
+}
